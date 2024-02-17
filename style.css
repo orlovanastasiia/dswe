@@ -87,4 +87,8 @@ margin-bottom: 24px;
 .footer_bl p {
      bottom: 15px;
   }
+	 .central_bl p{
+line-height: 20px;
+    font-size: 16px;
+  }
 }
