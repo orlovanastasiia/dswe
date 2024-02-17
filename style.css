@@ -1,14 +1,4 @@
-@font-face {
-    font-family: 'Apercu Mono Pro';
-    src: url('ApercuMonoPro-Regular.eot');
-    src: local('Apercu Mono Pro Regular'), local('ApercuMonoPro-Regular'),
-        url('font/ApercuMonoPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('font/ApercuMonoPro-Regular.woff2') format('woff2'),
-        url('font/ApercuMonoPro-Regular.woff') format('woff'),
-        url('font/ApercuMonoPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 @font-face {
     font-family: 'Inter';
     src: url('Inter-Regular.eot');
@@ -25,7 +15,8 @@
 	    text-align: center;
     margin: auto;
     display: block;
-	    margin-top: 20px;
+    margin-top: 91px;
+    opacity: 0.5;
 }
 .central_bl{
 	position: fixed;
@@ -41,54 +32,54 @@ font-weight: 400;
 line-height: 29px;
 letter-spacing: -0.05em;
 text-align: center;
-margin-bottom: 24px;
+margin-bottom: 27px;
 }
 .button_bl{
 	    display: flex;
     justify-content: center;
 }
 .button_bl a{
-	font-family: 'Apercu Mono Pro';
-	width: 70px;
-    height: 33px;
-    border-radius: 5px;
-    background: #EEF0F2;
+    font-family: Inter;
+
+
     display: block;
     text-align: center;
     line-height: 33px;
     font-size: 16px;
-    color: #9AA6AC;
+    color: rgb(26, 32, 36);
     text-decoration: none;
 }
 .button_bl a:hover{
-	background: #F6F8F9;
+ text-decoration: underline;
 
 }
-.button_bl a:click{
-	background: #E5E9EB;
 
-}
 .footer_bl p{
-	font-family: 'Apercu Mono Pro';
-    font-size: 14px;
+    font-family: Inter;
+    font-size: 12px;
     font-weight: 400;
     line-height: 17px;
     letter-spacing: 0em;
     text-align: left;
     color: #B0BABF;
     position: absolute;
-    bottom: 36px;
+    bottom: 50px;
     left: 0;
     right: 0;
     margin: auto;
     text-align: center;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 .footer_bl p {
-     bottom: 15px;
+     bottom: 20px;
   }
-	 .central_bl p{
-line-height: 20px;
+  .central_bl p{
+    line-height: 20px;
     font-size: 16px;
+    padding: 0px 30px;
+    margin-bottom: 32px;
+  }
+  .logo_img img{
+    margin-top: 16px;
   }
 }
